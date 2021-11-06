@@ -1,0 +1,224 @@
+body{
+    font-family: monospace;
+    text-align: center;
+}
+
+.big-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h1{
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.coloured-section{
+    background-color: #181725;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+
+}
+
+.title-cecil-road-image{
+    width: 55%;
+    box-shadow: 0px 0px 20px 5px white;
+}
+
+p{
+    color: #8F8F8F;
+}
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 12%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.contact-button{
+    color: white;
+}
+
+.contact-button:hover{
+    color: black;
+}
+
+.contact-button-link{
+    color: white;
+}
+
+#features{
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    color: black;
+    margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+    color: #0246B9;
+}
+
+#testimonials{
+    background-color: #181725;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+
+}
+
+#press{
+    background-color: #181725;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+.press-logo:hover{
+    box-shadow: 0px 0px 20px 5px white;
+
+}
+
+
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.princing-column{
+    padding: 2% 3%;
+}
+
+.card-school{
+    box-shadow: 0px 0px 20px 6px black;
+    margin: 1em;
+}
+
+.card-school:hover{
+    box-shadow: 0px 0px 20px 6px #0246B9;
+}
+
+
+
+
+
+#footer{
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .testimonial-text{
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+
+/* .btn-dark{
+    background-color: #0246B9;
+    border-color: #0246B9;
+} */
