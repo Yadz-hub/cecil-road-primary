@@ -143,6 +143,10 @@
 
     }
 
+    .picture-container-shadow{
+        padding: 0;
+    }
+
     .picture-container-text{
         font-size: 1rem;
     }
@@ -153,6 +157,7 @@
 
     .picture-container-shadow{
         border-radius: 28rem;
+        padding: 3rem;
     }
 
     .picture-section-get-started-btn{
